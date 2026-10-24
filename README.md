@@ -9,7 +9,8 @@ shows the same effect, without the vendors' software. For Windows 11 (Windows 10
   them in Settings → Personalization → Dynamic Lighting): no extra setup.
 - **ASUS ROG Strix laptops**: keyboard and lightbar.
 - **Logitech G815** keyboard.
-- **HP ZBook Fury 16 G9** laptops with the per-key RGB keyboard.
+- **HP ZBook Fury 16 G9** laptops with the per-key RGB keyboard, plus other laptops with the same
+  keyboard controller (likely other HP ZBooks) as an experiment.
 - **Razer**: the Basilisk V3 mouse, plus about 90 other Razer mice and keyboards as an experiment
   (Devices offers it when one is connected; tell us how it went).
 
@@ -47,7 +48,8 @@ Nothing leaves your PC, except the daily question to GitHub whether there's a ne
 
 Join **[SpectraRGB's Discord](https://discord.gg/JgBMpJe3fm)** for questions, ideas and reports.
 - **A device that isn't supported**: Devices → "Device not supported yet?" → create a report, and
-  send it there. It only reads from the device and leaves out serial numbers.
+  send it there, saying which device you'd like supported. It only reads from the devices and
+  leaves out serial numbers.
 - **Something not working**: Settings → Problems → "Save a problem report", and send it there.
 
 ## Uninstall
