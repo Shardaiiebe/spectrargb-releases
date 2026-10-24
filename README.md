@@ -1,12 +1,55 @@
-# SpectraRGB releases
+# SpectraRGB
 
-Installers of SpectraRGB, a Windows app that syncs the RGB lighting of your devices (and a live
-wallpaper behind your desktop icons) without the vendors' software.
+One lighting effect across your RGB devices, and a live wallpaper behind your desktop icons that
+shows the same effect, without the vendors' software. For Windows 11 (Windows 10 is untested).
 
-Get the newest version under [Releases](../../releases/latest): download
-`SpectraRGB_<version>_x64-setup.exe` and run it (it installs for your user only, no admin rights
-needed). Windows may warn that the installer isn't from a known publisher: choose "More info",
-then "Run anyway".
+## What it works with
 
-Once installed, SpectraRGB updates itself from here: it looks for a new version once a day (you can
-turn that off in Settings → Updates) and only installs updates signed by its maker.
+- **Devices with Windows Dynamic Lighting** (many recent keyboards, mice and laptops; Windows lists
+  them in Settings → Personalization → Dynamic Lighting): no extra setup.
+- **ASUS ROG Strix laptops**: keyboard and lightbar.
+- **Logitech G815** keyboard.
+- **Razer**: the Basilisk V3 mouse, plus about 90 other Razer mice and keyboards as an experiment
+  (Devices offers it when one is connected; tell us how it went).
+
+Something not on the list? See [Help](#help): a device report helps add it.
+
+## Install
+
+1. Under [Releases](../../releases/latest), download `SpectraRGB_<version>_x64-setup.exe` and run it.
+   It installs for you only (no admin rights needed).
+2. Windows may warn that the app is from an unknown publisher (it isn't signed with a paid
+   certificate): choose **More info**, then **Run anyway**.
+3. **Quit other lighting software** first: Armoury Crate, G HUB, Razer Synapse, SignalRGB, OpenRGB
+   and the like. They fight over the lights; SpectraRGB warns you when one is running.
+4. A short guide shows you around on the first start (it's in Settings if you want it again).
+
+SpectraRGB keeps running in the tray (by the clock) when you close its window, and can start with
+Windows (Settings).
+
+## Updates
+
+SpectraRGB looks for a new version once a day and offers to install it; you can also check by hand,
+or switch the daily check off, in Settings → Updates. Updates are signed: only ones from SpectraRGB's
+maker install.
+
+## Your privacy
+
+Nothing leaves your PC, except the daily question to GitHub whether there's a new version.
+- Effects that react to **key presses** only learn where on the keyboard and when, never which key.
+- Effects that react to **sound** listen to what the PC plays (never the microphone), only while
+  such an effect is on.
+- Effects that take colors from the **screens** look at tiny images of them, never stored.
+- Reports (below) are files you save and send yourself.
+
+## Help
+
+Join **[SpectraRGB's Discord](https://discord.gg/JgBMpJe3fm)** for questions, ideas and reports.
+- **A device that isn't supported**: Devices → "Device not supported yet?" → create a report, and
+  send it there. It only reads from the device and leaves out serial numbers.
+- **Something not working**: Settings → Problems → "Save a problem report", and send it there.
+
+## Uninstall
+
+Windows Settings → Apps → Installed apps → SpectraRGB → Uninstall. Tick **Delete the application
+data** there to remove your settings and wallpapers too (else they're kept for a reinstall).
