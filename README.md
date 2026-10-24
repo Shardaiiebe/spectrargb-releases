@@ -9,6 +9,7 @@ shows the same effect, without the vendors' software. For Windows 11 (Windows 10
   them in Settings → Personalization → Dynamic Lighting): no extra setup.
 - **ASUS ROG Strix laptops**: keyboard and lightbar.
 - **Logitech G815** keyboard.
+- **HP ZBook Fury 16 G9** laptops with the per-key RGB keyboard.
 - **Razer**: the Basilisk V3 mouse, plus about 90 other Razer mice and keyboards as an experiment
   (Devices offers it when one is connected; tell us how it went).
 
