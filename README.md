@@ -51,6 +51,10 @@ Join **[SpectraRGB's Discord](https://discord.gg/JgBMpJe3fm)** for questions, id
   send it there, saying which device you'd like supported. It only reads from the devices and
   leaves out serial numbers.
 - **Something not working**: Settings → Problems → "Save a problem report", and send it there.
+- **Asked for a recording** (a device nobody has described yet): Devices → "Record a lighting
+  program"; it walks you through it, and keeps only that device's lighting messages.
+- **Another program should light a device** (its maker's app, a game): switch "Control this
+  device" off on its card in Devices.
 
 ## Uninstall
 
