@@ -13,6 +13,18 @@ shows the same effect, without the vendors' software. For Windows 11 (Windows 10
   keyboard controller (likely other HP ZBooks) as an experiment.
 - **Razer**: the Basilisk V3 mouse, plus about 90 other Razer mice and keyboards as an experiment
   (Devices offers it when one is connected; tell us how it went).
+- **Desktops**, as an experiment (switched on in Devices; tell us how it went):
+  - the lighting of **ASUS** (Aura USB), **Gigabyte** (RGB Fusion 2) and **MSI** (Mystic Light)
+    motherboards: their own LEDs, and the fans and strips on their RGB headers (you say what's
+    plugged in, in Devices);
+  - the lighting of **NZXT Kraken** (X3, Z3, Elite RGB, X2) and **Corsair Hydro** (Platinum, Pro
+    XT, Elite RGB) coolers and the **ASUS ROG Strix LC III**, with the fans plugged into them.
+    Only their lighting: never their pump or fan speeds, which keep running as they were set.
+  - Not yet: Corsair coolers on a Commander Core (Elite Capellix, Elite LCD: lighting them would
+    stop their own fan and pump curves), MSI's newest X870 boards and older ones without per-LED
+    lighting, fan hubs (Corsair, NZXT, Lian Li). A device report helps add them.
+- Group devices that belong together (a PC case's insides) on the Layout page, and give them an
+  effect of their own if you like.
 
 Something not on the list? See [Help](#help): a device report helps add it.
 
@@ -22,8 +34,11 @@ Something not on the list? See [Help](#help): a device report helps add it.
    It installs for you only (no admin rights needed).
 2. Windows may warn that the app is from an unknown publisher (it isn't signed with a paid
    certificate): choose **More info**, then **Run anyway**.
-3. **Quit other lighting software** first: Armoury Crate, G HUB, Razer Synapse, SignalRGB, OpenRGB
-   and the like. They fight over the lights; SpectraRGB warns you when one is running.
+3. **Quit other lighting software** first: Armoury Crate, G HUB, Razer Synapse, SignalRGB, OpenRGB,
+   your motherboard's or cooler's lighting app (MSI Center, Gigabyte Control Center, NZXT CAM,
+   iCUE) and the like. They fight over the lights; SpectraRGB warns you about the ones it knows.
+   Need your cooler's app for its fan settings? Keep it, and switch "Control this device" off for
+   the cooler.
 4. A short guide shows you around on the first start (it's in Settings if you want it again).
 
 SpectraRGB keeps running in the tray (by the clock) when you close its window, and can start with
