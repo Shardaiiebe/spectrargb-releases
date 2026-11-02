@@ -80,7 +80,7 @@ shows the same effect, without the vendors' software. For Windows 11 (Windows 10
   off until you switch it on).
 - Group devices that belong together (a PC case's insides) on the Layout page, and give them an
   effect of their own if you like.
-- **Places**: save a layout for each desk ("Home", "Office"), and SpectraRGB picks the one whose
+- **Setups**: save a layout for each desk ("Home", "Office"), and SpectraRGB picks the one whose
   devices and screens are connected, by itself.
 - **Sensors**: the CPU's (with PawnIO) and graphics cards' temperatures, coolers' and fans'
   readings, for effects (Temperature, effect code) and fan curves.
@@ -117,7 +117,7 @@ maker install.
 ## Control from anywhere
 
 The lights switch, brightness, presets and the wallpaper also work without opening the window:
-- **The tray icon's menu** (right-click): lights, brightness, presets, places, wallpaper,
+- **The tray icon's menu** (right-click): lights, brightness, presets, setups, wallpaper,
   automations.
 - **Hotkeys** (Settings → Hotkeys): pick what a key combination does, press the combination. They
   work anywhere, also with the window closed. None are set until you add them.
