@@ -55,8 +55,10 @@ shows the same effect, without the vendors' software. For Windows 11 (Windows 10
   - **RGB RAM** (ENE-based modules; Corsair Vengeance RGB, RGB Pro, Dominator Platinum RGB and their
     DDR5 kin) and older ASUS Aura motherboards, lit over the motherboard's SMBus. That needs
     **PawnIO**, a signed driver SpectraRGB installs only when you ask (Devices); Windows then asks
-    for administrator rights at each start. Only modules recognized exactly are lit, and never their
-    memory settings.
+    for administrator rights once: a copy of SpectraRGB's helper goes to Program Files and a
+    Windows scheduled task, which only your account can start, runs it from then on (updates
+    don't ask again; uninstalling removes both). Only modules recognized exactly are lit, and
+    never their memory settings.
   - **Motherboard fan headers** (Cooling page, with PawnIO; Nuvoton and ITE chips): their speeds,
     and, once you switch it on, fixed speeds or curves on any temperature. Never below 30%; full
     speed when a temperature is critical or unknown; the BIOS's own settings back when SpectraRGB
